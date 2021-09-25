@@ -1,4 +1,5 @@
 #include <iostream>
 int main(){
-    cout<<"Hello World!";
+    std::cout<<"Hello World!"; // error fixed by using std
+    return 0;                  // error foxed by using return 0
 }
