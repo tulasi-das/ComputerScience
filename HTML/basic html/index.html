@@ -1,0 +1,112 @@
+<!-- HTML -- Hypert Text Markup Language -->
+<!-- Defins layout and content of the browser -->
+<!DOCTYPE html>    <!-- defines the document to be html-->
+<html>    <!-- starting tag-->
+    <head> <!-- Head of the document, data about document, metadata, importing resources, title, links-->
+        <!-- Basic tags -->
+        <meta name = "description" content="Tulasidas website">
+        <meta charset = "utf-8" />
+        <!-- Inside the tag we have attributes which provide custom information about the tags, in the above meta tag we have name and content attributes -->
+        <!--Meta tags give information about the page-->
+        <!--To view the page in windows and mobile application we use the following meta tag-->
+        <meta name="viewport" content = "width=device-width, initial-scale=1">
+    </head>
+
+    <body>    <!-- any of the content go inside the body-->
+        <h1>Tulasidas website</h1>
+        <!-- h1 >h2 >h3>h4>h5>h6 -->
+        <p>Iam tulasidas</p>    <!-- p tag is used for writng paragraphs-->
+        </br>          <!-- creats a new line using spaces-->
+        <hr/>          <!--Creates a new horizontal line-->
+        <big><p> Computer science student</p></big> <!-- Big tag is used for increasing the size of the text-->
+        <small><P>Hello bro whatsapp</P></small>    <!--Small is used to decrease the size of the text-->
+        <!-- Subscript and SuperScript-->
+        <p style="color:blue; background-color:rgb(120, 134, 120)">H<sub>2</sub>O</sub></p>     <!-- H2O -->
+        <p>X<sup>2</sup></p>
+
+        <!-- Formating the page layout -->
+        <!--Layout represents the structure of the page, that what should come where-->
+        <header>
+            <nav>  <!-- Nav contains links, list which are used to navigate to other pagees or other part of the page-->
+
+            </nav>
+        </header>
+        <main>
+            <article>
+                <section>All the text of the article comes here</section>
+            </article>
+            <aside> this is a advertisement</aside>   <!--We can devide the content into different parts, here aside is used to represent the advertisements-->
+        </main>
+        <!--Links are used to navigate from one page to anther page or to the different part of the page-->
+        <!--Inorder to navigate from one page to another page we can use anchor tag-->
+        <a href="https://www.google.com"><h1>Googles home page</h1></a>
+        <!--Inorder to open a new page when we click on the page we have to use target attribute and give blank-->
+        <a href="http://www.google.com" target="blank"><h1>googles home page</h1></a>
+        <!--Inorder to go to another html page we just have to specify the absolute path of that file-->
+        <!--Inorder to insert images in web page we use img tag, it contain src where we have to specify the path of that image, we have to give alt if the browser not able to load that image or if some error happens then it will print that alt message-->
+        <!--img contains only one tag-->
+        <img src="G:\marriage photos\image.jpg" style="width:400px"alt="Not able to load the picture">
+        <!--We can also put images into anchor tag and by clicking on that can navigate to anothet page-->
+        <!--In order to put the videos in the webpage we use the tag video and the other attributes are just like img-->
+        <!--The user can control the video when we give the attribute controls-->
+        <!--In order to show the thumnail a specific image we use the attribute poster-->
+        <video src = "" controls>This video cant be played</video>
+        <!--We can also youtube videos in our webpage-->
+        <!--Lists:Inorder to create list we use li, for unorder list we use ul, for ordered list we use ol-->
+        <ol>
+            <li>Oranges</li>
+            <li>Bananas</li>
+            <li>Mangoes</li>
+        <ol>
+        <ul>
+            <li>Tulasi</li>
+            <li>Dikku</li>
+            <li>Gnanu</li>
+        </ul>
+        <table>
+            <tr>       <!--tr represents rows-->
+                <th>num1</th>  <!--th represrents columns-->
+                <th>num2</th>
+            </tr>
+            <tr>
+                <td>Tulasi</td>   <!--Represents the data in the table-->
+                <td>Biradar</td>
+            </tr>
+            <tr>
+                <td>Dikku</td>
+                <td>Machkuri</td>
+            </tr>
+            
+        </table>
+        <!--Containers in html are div span tag-->
+        <!--Container is a set of elements that wraps other html tags-->
+        <!--Html can display inline and block elements-->
+        <!--BlockElements:takes the entire width of the page-->
+        <!--Takes the space as much as they need-->
+        <!--Links are inline elements and paragraph are block elements-->
+        <!--span is inline container and div is block container-->
+        <span>Tulasidas</span>
+        <span>Biradar</span>
+        <div>Dikku</div>
+        <div>Machkuri</div>
+
+        <!--Inupt and Forms-->
+        <!--Input tag doesnt have end tag-->
+ 
+        <input type="text" value="Enter your user name"/>
+        <input type="password">
+
+        <form>
+            <input name="button" type = "radio">
+            <input name="button" type = "radio">
+            <input naem="button" type ="checkbox">
+        </form>
+
+        <!--In order to add video from YouTube we use iframe-->
+        
+
+        
+      
+    </body>
+
+</html>    <!-- ending tag-->
