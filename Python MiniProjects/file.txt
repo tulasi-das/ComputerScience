@@ -1,0 +1,7 @@
+Command line basics
+
+1) To enter into a directory(Folder):    cd foldername
+2) To come to root directory         : cd /d NameOfTheDirectory 
+3) To know the files in the current directory: dir
+4) To back into previous directory : cd..\
+5) To back into two levels of directories : cd..\..\
